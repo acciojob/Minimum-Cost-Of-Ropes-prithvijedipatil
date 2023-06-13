@@ -4,7 +4,7 @@
   let str = x.value;
   let arr = str.split(",");
 
-  function calculateMinCost(arr) {
+  let z = function calculateMinCost(arr) {
     //your code here
     let arr1=[];
     let price=[];
@@ -45,5 +45,6 @@
     
   }  
 
+  document.getElementById('result').value=z;
 
   
